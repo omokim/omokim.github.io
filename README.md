@@ -1,0 +1,1 @@
+# omokim.github.io
