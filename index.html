@@ -1,11 +1,24 @@
 <html>
-
   <head>
-    
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <title>
+        엘사장인어른
+    </title>
   </head>
-  <body>
+  <body style="
+    background-image: url('/asset/img/bg.png');
+    background-position: center; 
+    background-size: cover; 
+    display:flex; 
+    align-items:center;
+    justify-content:center;">
 
-
-    <h1>MHOON</h1>
+    <span id="elem-main-msg" style="color:#fff;opacity: 0.8;font-weight:bold;text-align:center;">
+        삽질중<br/> 왼손은<br/>거들뿐 <br/>😭🥶😱
+    </span>
   </body>
+  <script>
+    const fsize = Math.min(document.body.clientWidth, document.body.clientHeight) * 0.16;
+    document.getElementById('elem-main-msg').style.fontSize = `${fsize}px`;
+  </script>
 </html>
